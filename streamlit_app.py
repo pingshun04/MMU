@@ -10,7 +10,7 @@ router = clips.LoggingRouter()
 env.add_router(router)
 
 #input
-name = st.text_input("Enter your name")
+name = st.text_input("Enter your name2")
 
 #knowledge base
 env.build('(deftemplate result (slot name))')
